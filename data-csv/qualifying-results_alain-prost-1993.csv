@@ -1,0 +1,17 @@
+position,driverNumber,driverId,constructorId,engineManufacturerId,tyreManufacturerId,time,gap,interval,laps,year,race
+1,2,alain-prost,williams,renault,goodyear,1:15.696,,,,1993,south-africa
+1,2,alain-prost,williams,renault,goodyear,1:15.866,,,,1993,brazil
+1,2,alain-prost,williams,renault,goodyear,1:10.458,,,,1993,europe
+1,2,alain-prost,williams,renault,goodyear,1:22.070,,,,1993,san-marino
+1,2,alain-prost,williams,renault,goodyear,1:17.809,,,,1993,spain
+1,2,alain-prost,williams,renault,goodyear,1:20.557,,,,1993,monaco
+1,2,alain-prost,williams,renault,goodyear,1:18.987,,,,1993,canada
+2,2,alain-prost,williams,renault,goodyear,1:14.524,+0.142,+0.142,,1993,france
+1,2,alain-prost,williams,renault,goodyear,1:19.006,,,,1993,great-britain
+1,2,alain-prost,williams,renault,goodyear,1:38.748,,,,1993,germany
+1,2,alain-prost,williams,renault,goodyear,1:14.631,,,,1993,hungary
+1,2,alain-prost,williams,renault,goodyear,1:47.571,,,,1993,belgium
+1,2,alain-prost,williams,renault,goodyear,1:21.179,,,,1993,italy
+2,2,alain-prost,williams,renault,goodyear,1:11.683,+0.189,+0.189,,1993,portugal
+1,2,alain-prost,williams,renault,goodyear,1:37.154,,,,1993,japan
+2,2,alain-prost,williams,renault,goodyear,1:13.807,+0.436,+0.436,,1993,australia
