@@ -1,0 +1,17 @@
+position,driverNumber,driverId,constructorId,engineManufacturerId,tyreManufacturerId,time,gap,interval,laps,year,race
+11,11,johnny-dumfries,lotus,renault,goodyear,1:29.503,+4.002,+0.209,,1986,brazil
+10,11,johnny-dumfries,lotus,renault,goodyear,1:25.107,+3.502,+0.055,,1986,spain
+17,11,johnny-dumfries,lotus,renault,goodyear,1:29.244,+4.194,+0.416,,1986,san-marino
+22,11,johnny-dumfries,lotus,renault,goodyear,1:27.826,+5.199,+0.538,,1986,monaco
+13,11,johnny-dumfries,lotus,renault,goodyear,1:57.462,+3.131,+0.925,,1986,belgium
+16,11,johnny-dumfries,lotus,renault,goodyear,1:28.521,+4.403,+0.419,,1986,canada
+14,11,johnny-dumfries,lotus,renault,goodyear,1:42.511,+4.210,+0.232,,1986,detroit
+12,11,johnny-dumfries,lotus,renault,goodyear,1:08.544,+2.018,+0.631,,1986,france
+10,11,johnny-dumfries,lotus,renault,goodyear,1:10.304,+3.343,+0.095,,1986,great-britain
+12,11,johnny-dumfries,lotus,renault,goodyear,1:44.768,+2.755,+0.422,,1986,germany
+8,11,johnny-dumfries,lotus,renault,goodyear,1:31.886,+2.436,+0.036,,1986,hungary
+15,11,johnny-dumfries,lotus,renault,goodyear,1:27.212,+3.663,+0.566,,1986,austria
+17,11,johnny-dumfries,lotus,renault,goodyear,1:28.024,+3.946,+0.101,,1986,italy
+15,11,johnny-dumfries,lotus,renault,goodyear,1:21.594,+4.921,+0.833,,1986,portugal
+17,11,johnny-dumfries,lotus,renault,goodyear,1:20.479,+3.489,+0.281,,1986,mexico
+14,11,johnny-dumfries,lotus,renault,goodyear,1:22.664,+4.261,+0.535,,1986,australia
