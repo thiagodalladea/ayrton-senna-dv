@@ -9,7 +9,7 @@ base_dir = './data'
 anos = range(1970, 2025)
 
 # Nome do piloto a ser filtrado
-piloto_especifico = 'elio-de-angelis'
+piloto_especifico = 'max-verstappen'
 
 # Lista para armazenar os dados de cada corrida
 resultados_corridas = []
