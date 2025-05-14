@@ -9,7 +9,7 @@ base_dir = './data'
 anos = range(1970, 2025)
 
 # Nome do piloto a ser filtrado
-piloto_especifico = 'max-verstappen'
+piloto_especifico = 'alain-prost'
 
 # Lista para armazenar os dados de cada corrida
 resultados_corridas = []
@@ -27,7 +27,7 @@ for ano in anos:
     if os.path.exists(ano_dir):
         for root, dirs, files in os.walk(ano_dir):
             for file in files:
-                if file.endswith('qualifying-results.yml'):
+                if file.endswith('race-results.yml'):
                     caminho_arquivo = os.path.join(root, file)
                     resultados = carregar_resultados(caminho_arquivo)
                     
@@ -45,4 +45,45 @@ for ano in anos:
 # Convertendo os resultados em um DataFrame
 df_resultados = pd.DataFrame(resultados_corridas)
 
-df_resultados.to_csv(f'data-csv/qualifying-results_{piloto_especifico}.csv', index=False)
+df_resultados.to_csv(f'data-csv/race-results/race-results_{piloto_especifico}.csv', index=False)
+
+
+
+
+
+# # Função para carregar o arquivo YAML
+# def carregar_resultados(arquivo):
+#     with open(arquivo, 'r') as f:
+#         return yaml.safe_load(f)
+
+# # Função para converter o YAML para CSV
+# def yaml_para_csv(caminho_yml, year, race):
+#     # Diretório onde o CSV será salvo
+#     pasta_csv = './data-csv/'
+    
+#     # Verifica se o diretório existe, se não, cria
+#     if not os.path.exists(pasta_csv):
+#         os.makedirs(pasta_csv)
+    
+#     # Carrega os resultados do arquivo YAML
+#     resultados = carregar_resultados(caminho_yml)
+    
+#     # Converte a lista de resultados em um DataFrame
+#     df_resultados = pd.DataFrame(resultados)
+    
+#     # Gera o nome do arquivo CSV a partir do nome do arquivo YAML (sem a extensão)
+#     nome_arquivo = os.path.splitext(os.path.basename(caminho_yml))[0]
+#     caminho_csv = os.path.join(pasta_csv, f'{ year }-{ race [3:]}.csv')
+    
+#     # Salva o DataFrame como um arquivo CSV
+#     df_resultados.to_csv(caminho_csv, index=False)
+
+# # Exemplo de uso:
+# # Solicite o caminho do arquivo YML
+# year = "1993"
+# race = "03-europe"
+
+# caminho_yml = f'./data/{ year }/races/{ race }/race-results.yml'
+
+# # Chama a função para converter o YML em CSV
+# yaml_para_csv(f'./data/{ year }/races/{ race }/race-results.yml', year, race)
